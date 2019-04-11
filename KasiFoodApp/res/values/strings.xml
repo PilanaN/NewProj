@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KasiFoodHub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="order_dialog_title">Submit Order</string>
+    <string name="order_dialog_total">Total Price</string>
+    <string name="order_dialog_message">Are you sure you want to place an order for selected item(s)?</string>
+    <string name="phone_number">0202231688</string>
+    <string name="address">1390 WestView, Pretoria West, SA 08737</string>
+
+    <!-- Font awesome icons -->
+    <string name="chevron_right">&#xF054;</string>
+    <string name="map_marker_alt">&#xF3C5;</string>
+    <string name="map">&#xF279;</string>
+    <string name="cart_plus">&#xF217;</string>
+    <string name="map_marker">&#xF041;</string>
+    <string name="map_pin">&#xF276;</string>
+    <string name="envelope">&#xF0E0;</string>
+    <string name="envelope_square">&#xF199;</string>
+    <string name="phone_square">&#xF098;</string>
+    <string name="phone">&#xF095;</string>
+    <string name="smile">&#xF118;</string>
+    <string name="search">&#xF002;</string>
+    <string name="check">&#xF00C;</string>
+    <string name="heart">&#xF004;</string>
+    <string name="history">&#xF1DA;</string>
+    <string name="clock">&#xF017;</string>
+    <string name="lock">&#xF023;</string>
+    <string name="star">&#xF005;</string>
+    <string name="star_half">&#xF089;</string>
+    <string name="cog">&#xF013;</string>
+    <string name="upload">&#xF093;</string>
+    <string name="redo">&#xF01E;</string>
+    <string name="facebook_f">&#xF39E;</string>
+    <string name="facebook">&#xF09A;</string>
+    <string name="facebook_square">&#xF082;</string>
+    <string name="facebook_messenger">&#xF39F;</string>
+    <string name="twitter_square">&#xF081;</string>
+    <string name="twitter">&#xF099;</string>
+    <string name="whatsapp_square">&#xF40C;</string>
+    <string name="whatsapp">&#xF232;</string>
+    <string name="check_circle">&#xF058;</string>
+    <string name="check_square">&#xF14A;</string>
+    <string name="thumbs_up">&#xF164;</string>
+    <string name="home">&#xF015;</string>
+    <string name="angle_left">&#xF104;</string>
+    <string name="angle_right">&#xF105;</string>
+    <string name="user_icon">&#xF007;</string>
+    <string name="shopping_cart">&#xF07A;</string>
+    <string name="question_circle">&#xF059;</string>
+    <string name="info_circle">&#xF05A;</string>
+    <string name="list">&#xF03A;</string>
+    <string name="arrow_left">&#xF060;</string>
+    <string name="arrow_right">&#xF061;</string>
+    <string name="intro_message">
+<![CDATA[
+        
+            
+            This sample shows you how to use {@link android.support.v7.widget.PopupMenu PopupMenu}
+            from ActionBarCompat to create a list, with each item having a dropdown menu.
+            
+        
+        ]]>
+    </string>
+    <string name="item_description">Description</string>
+    <string name="icep_placeholder">Company</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_home_customer">Shops</string>
+    <string name="title_activity_home_shop_owner">Home</string>
+    <string name="change_passw">Change</string>
+    <string name="new_passw">New Password</string>
+    <string name="title_activity_order">Menu</string>
+    <string name="shop_placeholder">Menu</string>
+    <string name="no_menu">No menu available yet.</string>
+    <string name="title_activity_view_menu">Menu</string>
+    <string name="action_forgot_password">Forgotten Password</string>
+    <string name="action_update">Update</string>
+    <string name="e_address">Enter your email</string>
+    <string name="title_activity_view_customer_order">View Customer Order</string>
+    <string name="title_activity_forgot_password">Forgotten Password</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_register_shop_owner">Register</string>
+    <string name="action_forgot_passord"><a href="">Forgotten Password</a></string>
+    <string name="email_hint">Email address</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">Login</string>
+    <string name="user_provide">Provide the following</string>
+    <string name="user_name">Enter your name</string>
+    <string name="user_surname">Enter your surname</string>
+    <string name="user_email">Enter your email</string>
+    <string name="user_phone">Enter your phone number</string>
+    <string name="user_id_no">Enter your ID number</string>
+    <string name="user_register">Register</string>
+    <string name="action_login">Login</string>
+    <string name="user_password_reset">Reset Password</string>
+    <string name="shops_available">Available Shops</string>
+    <string name="action_order_status">View Status</string>
+    <string name="action_view_orders">View Orders</string>
+    <string name="action_order">Place Order</string>
+    <string name="action_accepted_orders">Accepted Orders</string>
+    <string name="action_add_menuitems">Add Menu Items</string>
+    <string name="action_view_report">View Report</string>
+    <string name="item_desc">Description</string>
+    <string name="item_price">Price</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="done">Done</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_registration">Create Account</string>
+    <string name="title_activity_reset_password">Reset Password</string>
+    <string name="title_activity_order_management"></string>
+    <string name="title_activity_home_page">Shops</string>
+    <string name="title_activity_shop_menu">Shop Menu</string>
+    <string name="title_activity_add_menu">Add Menu</string>
+    <string name="title_activity_shop_owner_registration"></string>
+    <string name="next">Next</string>
+    <string name="owner_name">Enter your name</string>
+    <string name="owner_password">Enter your password</string>
+    <string name="owner_password_reenter">Re-eneter your password</string>
+    <string name="shop_owner">Shop Owner</string>
+    <string name="action_shop_menu">View Menu</string>
+    <string name="action_shop_info">About Shop</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="customer">Customer</string>
+    <string name="title_activity_register_customer">Customer</string>
+    <string name="title_activity_register_shop">Shop Owner</string>
+    <string name="title_activity_manage_item">ManageItemActivity</string>
+    <string name="title_activity_new_password">NewPasswordActivity</string>
+    <string name="username">enter username</string>
+    <string name="news"></string>
+    <string name="user">Enter your username</string>
+    <string name="password">Enter your password</string>
+    <string name="Login">Login</string>
+    <string name="app_logo">App logo image</string>
+    <string name="registration">New User</string>
+    <string name="newsss">Enter your username</string>
+    <string name="no"></string>
+    <string name="pass">Enter your password</string>
+    <string name="the">Our kasi burger</string>
+    <string name="paaa">Enter your password</string>
+    <string name="pass_choice">Choose password</string>
+    <string name="cred">Register Your Credentials</string>
+    <string name="paaaa">Enter your username</string>
+    <string name="passs">Enter your password</string>
+    <string name="ent">Enter your password</string>
+    <string name="spatlo">SPHATLHO</string>
+    <string name="our">Our kasi burger</string>
+    <string name="button">Next</string>
+    <string name="b">ready</string>
+    <string name="action_exit">Back</string>
+    <string name="action_prev">Back</string>
+    <string name="forgot_password">Forgotten Password?</string>
+
+    <string-array name="roles">
+        <item>----------Register as-----------</item>
+        <item>Customer</item>
+        <item>Shop Owner</item>
+    </string-array>
+    <string-array name="status">
+        <item>----Select----</item>
+        <item>Busy</item>
+        <item>Ready</item>
+        <item>Cancelled</item>
+        <item>Collected</item>
+    </string-array>
+    <string-array name="extras_order">
+        <item>None</item>
+        <item>Salt</item>
+        <item>Vinegar</item>
+        <item>Tomato sauce</item>
+        <item>Vinegar, Salt, Tomato sauce</item>
+    </string-array>
+
+    <string name="hin">Enter your username</string>
+    <string name="new_password">Enter new password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="reg">Register Here</string>
+    <string name="ents">Enter name</string>
+    <string name="surn">Enter surname</string>
+    <string name="s">Enter surname</string>
+    <string name="o">Enter phone number</string>
+    <string name="so">Enter phone number</string>
+    <string name="regs">Register customer</string>
+    <string name="add">Add Menu</string>
+    <string name="price">Enter item price</string>
+    <string name="as"></string>
+    <string name="pris">Enter item price</string>
+    <string name="item">Enter item description</string>
+    <string name="menu">Add Menu Item</string>
+    <string name="mot">Our kasi burger</string>
+    <string name="nw">Our kasi burger</string>
+    <string name="adds">Add Menu Items</string>
+    <string name="manage">Manage Menu</string>
+    <string name="view">View Orders</string>
+    <string name="owner">Welcome Shop Owner</string>
+    <string name="shop">Welcome Shop Owner</string>
+    <string name="man">Manage Items</string>
+    <string name="w">Welcome</string>
+    <string name="shops">Currently Available Shops</string>
+    <string name="q">Welcome</string>
+    <string name="make">Make orders here</string>
+    <string name="today">Today\'s Menu</string>
+    <string name="clear">Clear Order</string>
+    <string name="su">Submit Order</string>
+    <string name="select">Select all orders that</string>
+    <string name="ready">e</string>
+    <string name="readys">ready</string>
+    <string name="r">ready</string>
+    <string name="rea">ready</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Save</string>
+    <string name="none"></string>
+    <string name="action_placeOrder">Place Order</string>
+    <string name="title_activity_update">Update</string>
+    <string name="title_activity_view_ready_order">View Ready Order</string>
+    <string name="action_reject_order">Reject</string>
+    <string name="action_accept_order">Accept</string>
+    <string name="action_order_busy">Busy</string>
+    <string name="title_activity_accepted_orders">Accepted Orders</string>
+    <string name="action_view_accepted_orders">Accepted Orders</string>
+    <string name="action_order_ready">Ready</string>
+    <string name="action_collect_order">Collected</string>
+    <string name="action_back">BACK</string>
+    <string name="title_activity_costomer_status">Costomer Status</string>
+    <string name="action_logout">Logout</string>
+    <string name="view_order_status">View Status</string>
+    <string name="title_activity_view_order_report">View Order Report</string>
+    <string name="action_report">View Report</string>
+    <string name="action_refresh_status">Check Status</string>
+    <string name="action_add_menu_items">Add Menu Items</string>
+    <string name="action_manage_menu">Manage Menu</string>
+    <string name="action_cancel_order">Cancel Order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="email">Email</string>
+    <string name="passwd">Password</string>
+    <string name="title_activity_order_placed">Orders</string>
+    <string name="title_activity_order_information">OrderInformation</string>
+    <string name="title_activity_order_info">OrderInfo</string>
+    <string name="title_activity_view_accepted_orders">ViewAcceptedOrders</string>
+    <string name="title_activity_manage_menu">ManageMenu</string>
+    <string name="title_activity_view_report">ViewReport</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="title_activity_order_details">OrderDetails</string>
+    <string name="title_activity_shop_order_detail">ShopOrderDetail</string>
+    <string name="title_activity_customer_account">Account</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_no_menu">No Menu</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_register_login_details">RegisterLoginDetailsActivity</string>
+    <string name="title_activity_register_personal_details">RegisterPersonalDetailsActivity</string>
+
+</resources>

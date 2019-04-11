@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.sephatlho.HomeCustomerActivity" >
+    
+     <TextView
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:id="@+id/textViewSearchIcon"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dp"
+        android:text="@string/search" 
+        android:textStyle="bold"
+        android:visibility="visible"/>
+     
+      <TextView
+        android:id="@+id/textViewSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textViewSearchIcon"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Search" 
+        android:textStyle="bold"
+        android:clickable="false"
+        android:visibility="visible"/>
+      
+       <TextView
+        android:id="@+id/textViewShops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Shops" 
+        android:textStyle="bold"
+        android:visibility="visible"/>
+      
+       <TextView
+        style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+        android:id="@+id/textViewLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Log Out" 
+        android:visibility="visible"/>
+       
+       <View 
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#d3d3d3"
+           android:layout_below="@+id/textViewLogout"
+           android:visibility="visible"/> 
+  
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/textViewLogout"
+        android:layout_above="@+id/layoutNav"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+    
+    <ProgressBar
+        android:id="@+id/progressBarShops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    
+     <View 
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#d3d3d3"
+           android:layout_above="@+id/layoutNav"
+       />
+    
+     <LinearLayout 
+        android:id="@+id/layoutNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f5f5f5"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/imgHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="@string/home"
+            android:textColor="#A6710A"/>
+        
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/imgShopCart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="@string/shopping_cart"
+            android:textColor="@android:color/black"/>
+        
+         <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/imgAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="@string/user_icon"
+            android:textColor="@android:color/black"/>
+         
+        <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/imgAbout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="@string/info_circle"
+            android:textColor="@android:color/black"/>
+        
+         <Button style="?android:buttonBarButtonStyle"
+            android:id="@+id/imgHelp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:text="@string/question_circle"
+            android:textColor="@android:color/black"/>
+         
+    </LinearLayout>
+   
+</RelativeLayout>
